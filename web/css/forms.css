@@ -1,0 +1,359 @@
+.form-aplication{
+    color: #000;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+}
+
+.form-fieldset{
+    margin-top: 2px; 
+    border:1px solid #ddd;
+    padding: 2px 10px;
+}
+
+
+.form-div{
+    width: 48%;
+    float: left;  
+    padding: 1px;
+    /*border: 1px solid #000;*/
+}
+
+form{
+    font-family : sans-serif;
+}
+
+legend{
+    font-weight: bolder;
+}
+
+
+.form-div-ext{
+    width: 96%;
+    float: left;  
+    padding: 1px;
+}
+
+.form-div label, .form-div-ext label{
+    float:left;
+    width:17em;
+    font-size:11px;
+    text-align:right;
+    margin-right: 1em;
+}
+
+.form-div label.error, .form-div-ext label.error {
+    color:#000000;
+    width: auto;
+    float: right;
+    font-family:sans-serif;
+    font-size:9px;
+    font-weight: bolder;
+}
+
+.form-div input{
+    width:18em;
+}
+
+.form-div select{
+    width:18em;
+}
+
+.form-div input.corto{
+    width:9em;
+}
+
+.form-div-ext input{
+    width : 40em;
+}
+.form-div-ext > div{
+    float: left;
+    margin-top: 2px;
+    min-height: 22px;
+    /*border: 1px solid #000;*/
+}
+
+.form-div label span, .form-div-ext label span{
+    color: #b83400;
+    font-weight: bolder;
+}
+
+.form-div-botones{
+    text-align: right;
+    padding: 10px 5px 5px 5px;
+    /*border: 1px solid #F00;*/
+    clear: both;
+}
+
+.derecho{
+    float: left;
+    margin: 5px;
+    margin-top: 20px;
+    padding: 3px;
+    -moz-border-radius:0.4em;
+    -khtml-border-radius:0.4em;
+    border: 1px solid #f1f0f0;
+}
+
+.derecho input[type="button"]{
+    width: 80px;
+    height: 80px;
+    border: none;
+}
+
+.izquierdo{
+    float: right;
+    margin: 5px;
+    margin-top: 20px;
+    padding: 3px;
+    -moz-border-radius:0.4em;
+    -khtml-border-radius:0.4em;
+    border: 1px solid #f1f0f0;
+}
+
+input[type="text"]{
+    padding:0 0.14em;
+    border:1px solid #ddd;
+    background:#fafafa;
+    -moz-border-radius:0.3em;
+    -khtml-border-radius:0.3em;
+    height: 18px;
+    vertical-align: middle;
+}
+
+
+select{
+    padding:0 0.14em;
+    border:1px solid #ddd;
+    background:#fafafa;
+    text-transform: uppercase;
+    height: 20px;
+}
+
+.textoPasoAnterior{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color:#AAAAAA;
+    text-decoration: none;
+    text-align: center;
+    padding:7;
+}
+.textoPasoActual{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color:#39669B;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    padding:7;
+}
+.textoPasoPosterior{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color:#39669B;
+    text-decoration: none;
+    text-align: center;
+    padding:7;
+}
+
+
+.dialog-fieldset{
+    margin-top: 10px; 
+    border:1px solid #ddd;
+    padding: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+}
+.dialog-fieldset fieldset{
+    margin-top: 10px; 
+    border:1px solid #ddd;
+    padding: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+}
+
+.dialog-fieldset fieldset label{
+    margin-left: 20px;
+}
+
+.dialog-div{
+    width: 99%;
+    float: left;  
+    padding: 1px;
+    /*border: 1px solid #000;*/
+}
+
+.dialog-div label{
+    float:left;
+    width:25%;
+    font-size:11px;
+    text-align:right;
+    margin-right: 1em;
+    font-weight: bolder;
+}
+
+.dialog-div label.error{
+    color:#000000;
+    width: auto;
+    float: right;
+    font-family:sans-serif;
+    font-size:9px;
+    font-weight: bolder;
+}
+
+.dialog-div input[type='text'], .dialog-div textarea{
+    width:65%;
+}
+
+.dialog-div select{
+    width:30%;
+}
+
+.dialog-div input[type='text'].medio, .dialog-div textarea{
+    width:30%;
+}
+
+
+.dialog-div label span, .dialog-div label span{
+    color: #b83400;
+    font-weight: bolder;
+
+}
+
+.dialog-div > div{
+    float: left;
+    margin-top: 2px;
+    min-height: 22px;
+    /*border: 1px solid #000;*/
+}
+
+
+.dialog-divmedio{
+    width: 48%;
+    float: left;  
+    padding: 1px;
+    /*border: 1px solid #000;*/
+}
+
+.dialog-divmedio label{
+    float:left;
+    width:40%;
+    font-family: sans-serif;
+    font-size:9px;
+    text-align:right;
+    margin-right: 1em;
+    font-weight: bolder;
+    /*font-weight: bolder;*/
+}
+
+.dialog-divckeditor label.error, .dialog-divmedio label.error{
+    color: #000000;
+    width: auto;
+    float: right;
+    font-family: sans-serif;
+    font-size: 9px;
+    font-weight: bolder;
+}
+
+.dialog-divmedio input[type='text'], .dialog-div textarea{
+    width:50%;
+    font-size: 11px;
+}
+
+.dialog-divmedio select { 
+    width:45%;
+}
+.dialog-divmedio select option { 
+    font-size:11px;
+}
+
+.dialog-divmedio input[type='text'].medio, .dialog-div textarea{
+    width:30%;
+}
+
+
+.dialog-divmedio label span, .dialog-divmedio label span{
+    color: #b83400;
+    font-weight: bolder;
+}
+
+.dialog-divmedio > div{
+    float: left;
+    margin-top: 2px;
+    min-height: 22px;
+    /*border: 1px solid #000;*/
+}
+
+.dialog-divckeditor{
+    width: 100%;
+    float: left;  
+    padding: 1px;
+    /*border: 1px solid #000;*/
+}
+.dialog-divckeditor > div{
+    float: left;
+    margin-top: 2px;
+    min-height: 22px;
+}
+
+.dialog-divckeditor label{
+    float:left;
+    width:19%;
+    font-family: sans-serif;
+    font-size:9px;
+    text-align:right;
+    margin-right: 1em;
+    font-weight: bolder;
+    /*font-weight: bolder;*/
+}
+
+.dialog-divckeditor label span{
+    color: #b83400;
+    font-weight: bolder;
+}
+
+
+
+.sidebar { border: #CCCCCC solid 1px; margin: auto 5px; float: left; }
+
+.box { background:#fbfcfc; height:100%; padding:2px; margin-bottom:0px;}
+.box-head { 
+    background:#E5E5E5; 
+    height:28px; 
+    color:#fff; 
+    padding: 0 10px; 
+    line-height:28px; 
+    white-space:nowrap;
+    border:solid 1px #CCCCCC; 
+}
+.box-head .right{ padding-top:5px; line-height:13px;}
+.box-head .right label,
+.box-head .right input { float:left; }
+.box-head .right label { padding:4px 0 0 0;}
+.box-head .right input { margin-left:5px;}
+.box-head h3 { color: #000; border-bottom: none;  }
+
+.box-content { padding:5px; }
+.box-content div div{ 
+    float: none;
+    width: 100%;
+    padding: 2px;
+    /*border: 1px solid #000;*/
+}
+.box-content div label input{ 
+    vertical-align: middle;
+}
+
+.box-foot { 
+    background:#fafafa; 
+    color:#fff; 
+    text-align: right;
+    padding: 2px 2px; 
+    line-height:28px; 
+    white-space:nowrap;
+}
+
+
+.sort { border-top:solid 1px #e0e0e0; padding-top:10px; margin-top:15px;   }
+.sort label{ display:block; font-weight: bold;}
+.sort .field{ display:block; margin-top:5px; }
+.sort select.field{ width:203px; }

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/BasesDatos">
+    <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="combined" prefix="BasesDatos." resolveHosts="false" suffix=".txt"/>
+    <Resource auth="Container" 
+              driverClassName="oracle.jdbc.OracleDriver" 
+              logAbandoned="true" maxActive="400" maxIdle="5" maxWait="-1" 
+              name="jdbc/Regafectados" password="regafectados2017" 
+              removeAbandoned="true" removeAbandonedTimeout="40" 
+              type="javax.sql.DataSource" 
+              url="jdbc:oracle:thin:@//fopaescan.fopaedom.local:1521/siredb" username="REGAFECTADOS"/>
+</Context>
