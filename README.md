@@ -1,2 +1,2 @@
 # Diana
-Diana Versión Idiger
+Diana Versión
